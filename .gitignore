@@ -1,6 +1,39 @@
-*.log
-.cache
-.DS_Store
-src/.temp
+# app dep files
+*_Store
+package*.json
+yarn.lock
 node_modules
-dist
+/dist
+*.orig
+.cache
+src/.temp/*
+.nvmrc
+
+# local env files
+.env.local
+.env.*.local
+# .env
+# .env.*
+
+# Log files
+*.log*
+*.diff*
+
+# db
+db.json
+
+# Editor directories and files
+.idea
+*.vim
+*.pdf
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+.zsh*
+*.yaml
+
+# audio
+*.mp3
+*.mp4
