@@ -22,9 +22,9 @@ sections:
   path: data/theme.json
   label: Theme config
 upload_dir: ''
-public_path: ''
+public_path: https://res.cloudinary.com/codeaddict/image/upload/.
 front_matter_path: ''
-use_front_matter_path: 
+use_front_matter_path: true
 file_template: ":filename:"
 build:
   preview_output_directory: dist
