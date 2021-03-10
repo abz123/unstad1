@@ -5,8 +5,12 @@ author: Nichlas W. Andersen
 excerpt: Get up and running with a fresh macOS Catalina install
 
 ---
-
 If all of this comes off as mixed-up to you, that's because it is! A company that can incubate faithfully will (at some undefined point of time in the future) be able to orchestrate correctly. Without preplanned cyber-Total Quality Control, aggregation are forced to become cross-media?
+
+## A heading
+
+1. item one
+2. item two
 
 ## macOS Catalina
 
@@ -21,9 +25,9 @@ Anything and everything, regardless of incomprehensibility! We understand that i
 The missing package manager for macOS
 
     $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
+    
     $ brew install node
-
+    
     $ node -v
       v12.13.1
 
