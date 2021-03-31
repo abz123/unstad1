@@ -1,4 +1,15 @@
 ---
 label: Tester
 hide_body: false
-fields: []
+fields:
+- name: test
+  type: color
+  label: Test
+  config:
+    required: false
+    color_format: Hex
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
