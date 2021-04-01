@@ -4,9 +4,6 @@ auto_deploy: false
 admin_path: "/static/admin"
 webhook_url: 
 sections:
-- type: document
-  path: src/pages/Contact.vue
-  label: Contact
 - type: heading
   label: Content
 - type: directory
@@ -24,6 +21,9 @@ sections:
   match: "**/*.md"
   templates:
   - project
+- type: document
+  path: src/pages/Contact.vue
+  label: Contact
 - type: document
   path: data/theme.json
   label: Theme config
