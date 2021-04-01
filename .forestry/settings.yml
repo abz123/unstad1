@@ -5,9 +5,8 @@ admin_path: "/static/admin"
 webhook_url: 
 sections:
 - type: document
-  path: src/pages
+  path: src/pages/Contact.vue
   label: Contact
-  match: "**/*"
 - type: heading
   label: Content
 - type: directory
