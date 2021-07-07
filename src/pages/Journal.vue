@@ -8,8 +8,8 @@
       </div>
     </div>
     <g-link 
-      :to="item.node.path"
       v-for="item in $page.posts.edges" 
+      :to="item.node.path"
       :key="item.node.id"
       class="journal-post"
     >
