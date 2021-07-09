@@ -7,7 +7,6 @@
     <LatestJournals :journals="$page.journals.edges" />
   </Layout>
 </template>
-
 <page-query>
 query Posts {
 	projects: allProjectPost {

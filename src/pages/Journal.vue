@@ -3,7 +3,8 @@
     <div class="container">
       <div class="journal-hero">
         <h1 class="journal-header">
-          a wise person once said...
+          <!--a wise person once said...-->
+          <Proverb />
         </h1>
       </div>
     </div>
@@ -16,6 +17,7 @@
       <div class="container journal">
         <h2 class="journal-title">{{ item.node.title }}</h2>
         <p class="journal-excerpt">{{ item.node.excerpt }}</p>
+        <p>{{item.node.title}}</p>
       </div>
     </g-link>
   </Layout>
@@ -35,7 +37,13 @@ query Journal {
 }
 </page-query>
 <script>
-  export default {}
+  import Proverb from "../components/Proverb.vue"
+
+  export default {
+    components: {
+      Proverb    
+    }
+  }
 </script>
 <style scoped>
   .container.journal {
