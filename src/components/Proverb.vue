@@ -1,5 +1,6 @@
 <template>
-  <div v-html="$static.proverb.title" />
+  <!--<span v-html="$static.proverb.title" />-->
+  <span>{{$static.proverb.title}}</span>
 </template>
 <static-query>
   query{
