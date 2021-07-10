@@ -1,3 +1,4 @@
 ---
-title: a wise person once said...
+title: a wise person once said... what up?
+
 ---
